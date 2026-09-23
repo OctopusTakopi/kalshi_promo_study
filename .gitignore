@@ -1,0 +1,6 @@
+# Publish only the built page. Everything else (session cookies, raw API data,
+# datasets, scripts) stays local: ignore all, then allow-list.
+/*
+!/index.html
+!/.nojekyll
+!/.gitignore
